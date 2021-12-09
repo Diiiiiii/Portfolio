@@ -13,8 +13,17 @@ Selektor po klasi
 #intro {
     color: pink;
 }
+#intro::first-letter {
+    font: size 30px;
+    color:white;
+
+}
 [target="_blank"] {
     color: green;
+}
+[target="_blank"]::before {
+    content: "(External link)";
+    color: white;
 }
 [href^="mailto:"] {
     color:red;
@@ -36,4 +45,23 @@ p:nth-child(3) {
 
 li:nth-child(2n + 1) {
     background: green;
+}
+
+/*descendant selektor (razmak) - selektira sve <li> a onda sve a elementi u tim <li> itemima */
+li a {
+    font-size: 30px;
+}
+/* chiled selektor (>) - specifičniji, samo element koji je izravan chiled element */
+li > a {
+    font-size:50px;
+}
+
+/* li + li {
+    background: black;
+} */
+
+
+/* sibling selektor (+)(~) samo vijedi za elemente koji su desno, ne može se selektirati elemente koji su prethodili elementu, samo oni koji slijede */
+li:nth-child(2) + li {
+    background: black;
 }
