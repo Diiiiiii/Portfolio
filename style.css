@@ -8,9 +8,9 @@ body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
     background-color:#ffffff;
-    background-image: url('./wallpaperflare.com_wallpaper.jpg');
+    background-image: url('./shapes-background-pattern.jpg');
     background-repeat: repeat-y;
-    background-size: 75%;
+    background-size: 80%;
     background-position: right ;
 } 
 .p, p {
@@ -89,5 +89,7 @@ p::selection {
     background: rgb(168 208 146);
   }
 
-
+#headings {
+    background-size: 25%;
+}
 
