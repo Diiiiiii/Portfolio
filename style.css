@@ -69,7 +69,7 @@ body {
 
 .fancy {
    /* color: #fff; */
-   font-size: 5rem;
+   font-size: 1rem;
     text-shadow:
     1px 0px 1px red,
     -1px 0px 0px green,
@@ -78,8 +78,8 @@ body {
 }
 
 .highlight {
-    color: #fff;
-    background-color: rgb(78, 125, 255);  
+    color: hsl(0deg 50% 18%);
+    background: rgb(168 208 146); 
 }
 
 #text {
