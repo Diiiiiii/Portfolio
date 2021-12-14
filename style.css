@@ -112,4 +112,23 @@ p::selection {
     box-sizing: border-box;
     
 }
+.cookie-consent {
+    color: black;
+    background-color: #ddd;
+    padding: 16px;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.cookie-consent-text {
+    margin-right: 16px;
+
+}
+.cookie-consent-yes {
+    text-decoration: underline;
+
+}
+.cookie-consent-no {
+    text-decoration: underline;
+}
 
