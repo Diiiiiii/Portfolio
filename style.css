@@ -67,14 +67,16 @@ body {
 }
 
 .fancy {
-   /* color: #fff; */
-   font-size: 1rem;
-   letter-spacing: 0.1em;
+    color:  #2f7ec1; 
+    font-size: 3rem;
+    letter-spacing: 1.0em;
+    font-weight: 500;
+    background-color:#ffffff;
     text-shadow:
-    1px 0px 1px red,
-    -1px 0px 0px green,
-    0px 1px 0px blue,
-    0px 1px 0px yellow;
+    0px 0px 0px rgb(221, 228, 208),
+    3px 3px 0px #e1e42b,
+    4px 5px 0px #ce41e1,
+    5px 6px 0px blueviolet;
 }
 
 .highlight {
@@ -91,5 +93,8 @@ p::selection {
 
 #headings {
     background-size: 25%;
+}
+.emoticon {
+    text-shadow: none;
 }
 
