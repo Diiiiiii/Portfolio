@@ -6,7 +6,7 @@ body {
     color: rgb(76 94 85 / 98%);
     font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
-    line-height: 1;
+    line-height: 1.5;
     background-color:#ffffff;
     background-image: url('./wallpaperflare.com_wallpaper.jpg');
     background-repeat: repeat-y;
@@ -63,8 +63,7 @@ body {
 .text-align-right { text-align: right; }
 .text-align-center { text-align: center; }
 .text-align-justify { text-align: justify; }
-.link {
-    text-decoration: none;
+.link { text-decoration: none;
 }
 
 .fancy {
