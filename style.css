@@ -8,10 +8,10 @@ body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
     background-color:#ffffff;
-    /* background-image: url('./shapes-background-pattern.jpg');
+    background-image: url('./shapes-background-pattern.jpg');
     background-repeat: repeat-y;
     background-size: 80%;
-    background-position: right ; */
+    background-position: right;
     /* background: 
         url('./shapes-background-pattern.jpg') right/80%  repeat-y,
          url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAAXNSR0IArs4c6QAAAD9JREFUKFONkNEKACAIA8///2jDwCinkG9uh04NLQesylVISOAbrObTJ9iuA44e4ARlzO1L6Oa4kPwX1DcME1n5/goIOM5KEQAAAABJRU5ErkJggg==) top left repeat, 
@@ -52,13 +52,13 @@ body {
     letter-spacing: 0.1em;
 }
 .h2, h2 {
-    color:rgb(134 27 97);
+    color: rgb(134 27 97);
     font-size: 2.66rem;
     font-weight: 700;
     letter-spacing: 0.1em;
 }
 .h1, h1 {
-    color:rgb(32 111 56);
+    color: rgb(32 111 56);
     font-size: 3rem;
     font-weight: 700;
     line-height: 1.5;
@@ -114,7 +114,7 @@ p::selection {
 }
 .cookie-consent {
     color: black;
-    background-color: #ddd;
+    background-color: rgb(249 179 32);
     padding: 16px;
     /* width: auto; */
     width: 300px;
