@@ -109,15 +109,16 @@ p::selection {
     margin: 0 auto 0 auto; */
     margin: 0 auto;
     padding: 0 16px;
-    box-sizing: border-box;
+    box-sizing: border-box; 
     
 }
 .cookie-consent {
     color: black;
     background-color: #ddd;
     padding: 16px;
+    /* width: auto; */
     width: 300px;
-    box-sizing: border-box;
+    box-sizing: border-box;  
 }
 
 .cookie-consent-text {
@@ -126,6 +127,8 @@ p::selection {
 }
 .cookie-consent-yes {
     text-decoration: underline;
+    font-weight: bold;
+    margin-right: 16px;
 
 }
 .cookie-consent-no {
