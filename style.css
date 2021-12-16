@@ -113,6 +113,10 @@ p::selection {
     
 }
 .cookie-consent {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    text-align: center;
     color: black;
     background-color: rgb(249 179 32);
     padding: 16px;
@@ -121,14 +125,11 @@ p::selection {
     box-sizing: border-box;
     /* border: none; */
     border-radius: 40px 10px;
-    
-   
-    
+    display: inline-block; 
 }
 
 .cookie-consent-text {
     margin-right: 16px;
-    
 
 }
 .cookie-consent-yes {
@@ -139,5 +140,71 @@ p::selection {
 }
 .cookie-consent-no {
     text-decoration: underline;
-}
 
+}
+.profile-image {
+    display: block;
+    height:300px;
+    width: 300px;
+    object-fit: cover;
+    object-position: -3px center;
+    border-bottom-left-radius: 50%; 
+ /* border-bottom-right-radius: 50%; */
+    border-top-right-radius: 40%; 
+    border-top-left-radius: 50%; 
+     /* border-radius: 100px;  */
+    border-width: 10px;
+    border-style:solid;
+    border-color: rgb(249 179 32); 
+/*  box-shadow: 
+    -10px 0px 0px 0px red,
+    -20px 0px 0px 0px green,
+    -30px 0px 0px 0px blue,
+    -40px 0px 0px 0px yellow; */
+    
+}
+.project {
+    
+    display: block;
+    width: 100%;
+    background: white;
+    padding: 16px;
+    border-width: 10px;
+    border-style:solid;
+    border-color: rgb(249 179 32); 
+}
+.project-title{
+    margin-bottom: 8px;
+}
+.project-description{}
+.project-link{
+    box-sizing: border-box;
+    display: inline-block;
+
+    background-color: red;
+    color:white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1;
+    padding: 12px 16px;
+}
+.project-link:hover {
+    text-decoration: underline;
+}
+.project-technology-list{
+    margin: -4px 0;
+    padding: 0;
+}
+.project-technology-list li {
+    display: inline-block;
+    background-color: turquoise;
+    padding: 4px 8px;
+    color: rgb(216, 92, 92);
+    margin-right: 8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.project-technology-list li + li {
+    margin-left: 8px;
+}
