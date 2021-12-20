@@ -1,5 +1,5 @@
 # Portfolio
-<img alt="GitHub" src="https://img.shields.io/github/license/Diiiiiii/portfolio-website?style=flat-square">
+<img alt="GitHub" src="https://img.shields.io/github/license/Diiiiiii/portfolio-website?color=red">
 
 Ovo će biti moj portfolio. Za sad je radna verzija koja se nadograđuje prema lekcijama koje učimo.
 
