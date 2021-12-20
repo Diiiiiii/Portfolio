@@ -8,7 +8,7 @@ https://diiiiiii.github.io/portfolio-website/
 ## Link za Style Sheet 
 https://diiiiiii.github.io/portfolio-website/style-guide.html
 
-## Link za HTML Cheet Sheet
+## Link za HTML Cheat Sheet
 https://diiiiiii.github.io/kako-s-htmlom/
 
 
