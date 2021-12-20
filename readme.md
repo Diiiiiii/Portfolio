@@ -1,4 +1,6 @@
 # Portfolio
+<img alt="GitHub" src="https://img.shields.io/github/license/Diiiiiii/portfolio-website?style=flat-square">
+
 Ovo će biti moj portfolio. Za sad je radna verzija koja se nadograđuje prema lekcijama koje učimo.
 
 
@@ -10,7 +12,4 @@ https://diiiiiii.github.io/portfolio-website/style-guide.html
 
 ## Link za HTML Cheat Sheet
 https://diiiiiii.github.io/kako-s-htmlom/
-
-<img alt="GitHub" src="https://img.shields.io/github/license/Diiiiiii/portfolio-website?style=flat-square">
-
 
