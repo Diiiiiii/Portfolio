@@ -239,7 +239,7 @@ p::selection {
 .tooltip-message {
     display: none;
     position: absolute;
-    botton:100%;
+    bottom: 100%;
     left: 0;
     background: rgba(0, 0, 0, 0.8);
     color: white;
