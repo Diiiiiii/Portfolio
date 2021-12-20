@@ -192,7 +192,7 @@ p::selection {
     margin: 8px 0px;
 }
 .project-link {
-
+    position: relative;
     display: inline-block;
     background: rgb(221, 217, 219);
     background: rgb(125,5,5);
@@ -206,6 +206,7 @@ p::selection {
 }
 .project-link:hover {
     text-decoration: underline;
+    bottom: 4px;
 }
 .project-technology-list{
     margin:  0;
@@ -230,4 +231,37 @@ p::selection {
 .highlight-2 {
     color: hsl(0deg 20% 18%);
     background: gold; 
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+.tooltip-message {
+    display: none;
+    position: absolute;
+    botton:100%;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 8px 12px;
+    font-size: 0.8rem ;
+    line-height: 1.5;
+    width: 150%;
+    max-width: 320px;
+}
+.tooltip:hover .tooltip-message {
+    display: inline-block;
+}
+.float-row {
+    margin: 0 -16px;
+}
+.float-row::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.float-column {
+    float: left;
+    width: calc(50% - 32px);
+    margin: 0 16px;
 }
