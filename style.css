@@ -89,14 +89,14 @@ body {
     background: rgba(34,193,195,1); 
 }
 
-#text {
+.text {
     background-color: white;
 }
 p::selection {
     background: rgba(249,179,32,1);
   }
 
-#headings {
+.headings {
     background-size: 25%;
 }
 
@@ -121,7 +121,7 @@ p::selection {
     background-color: rgb(249 179 32);
     padding: 16px;
     /* width: auto; */
-    width: 320px;
+    /* width: 320px; */
     box-sizing: border-box;
     /* border: none; */
     border-radius: 40px 10px;
@@ -164,24 +164,39 @@ p::selection {
     
 }
 .project {
-    
+    box-sizing: border-box;
     display: block;
     width: 100%;
-    background: white;
+    background-image: url('./dark-chocolate-texture.jpg');
     padding: 16px;
-    border-width: 10px;
-    border-style:solid;
+    border: 8px solid black;
+    border-bottom: 8px double black;
+    border-top: 8px double black;
     border-color: rgb(249 179 32); 
 }
-.project-title{
+.project-title {
+    color:  gold; 
+    font-size: 3rem;
+    letter-spacing: .5em;
+    font-weight: 500;
+    /* background-color:#ffffff; */
+    text-shadow:
+    0px 0px 0px rgb(221, 228, 208),
+    3px 3px 0px #e1e42b,
+    4px 5px 0px #ce41e1,
+    5px 6px 0px blueviolet;
+    background-size: cover;
     margin-bottom: 8px;
 }
-.project-description{}
-.project-link{
-    box-sizing: border-box;
-    display: inline-block;
+.project-description{
+    margin: 8px 0px;
+}
+.project-link {
 
-    background-color: red;
+    display: inline-block;
+    background: rgb(221, 217, 219);
+    background: rgb(125,5,5);
+    background: linear-gradient(180deg, rgba(125,5,5,1) 1%, rgba(250,1,1,1) 53%);
     color:white;
     text-decoration: none;
     font-weight: 700;
@@ -193,18 +208,26 @@ p::selection {
     text-decoration: underline;
 }
 .project-technology-list{
-    margin: -4px 0;
+    margin:  0;
     padding: 0;
 }
 .project-technology-list li {
     display: inline-block;
-    background-color: turquoise;
+    background: rgb(221, 217, 219);
+    background: rgb(125,5,5);
+    background: linear-gradient(180deg, rgba(125,5,5,1) 1%, rgba(250,1,1,1) 53%);
     padding: 4px 8px;
-    color: rgb(216, 92, 92);
+    color: white;
     margin-right: 8px;
     margin-top: 4px;
     margin-bottom: 4px;
+    font-size: 0.8rem;
 }
 .project-technology-list li + li {
-    margin-left: 8px;
+    margin-left: 0px;
+}
+
+.highlight-2 {
+    color: hsl(0deg 20% 18%);
+    background: gold; 
 }
