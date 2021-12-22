@@ -156,12 +156,12 @@ p::selection {
     border-width: 10px;
     border-style:solid;
     border-color: rgb(249 179 32); 
-/*  box-shadow: 
-    -10px 0px 0px 0px red,
-    -20px 0px 0px 0px green,
-    -30px 0px 0px 0px blue,
-    -40px 0px 0px 0px yellow; */
-    
+    /* transform: rotate(0.5turn); */
+    transition: transform 1s ease;
+}
+.profile-image:hover {
+    transform: rotate(1turn);
+    transition: transform 2s ease;
 }
 .project {
     box-sizing: border-box;
@@ -203,8 +203,12 @@ p::selection {
     font-size: 1rem;
     line-height: 1;
     padding: 12px 16px;
+    bottom:0;
+    transition: bottom 0.3s ease, 
+    background-color 0.3s ease 0.3s;
 }
 .project-link:hover {
+    background-color: darkblue;
     text-decoration: underline;
     bottom: 4px;
 }
@@ -332,3 +336,17 @@ p::selection {
   margin-left: 32px;
 }
 
+.fancy-button {
+    display: inline-block;
+    border: none;
+    background: none;
+    padding:0 16px;
+    margin:0;
+    height: 40px;
+}
+.fancy-button::before{
+    
+}
+.fancy-button > span {
+
+}
