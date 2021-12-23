@@ -8,7 +8,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
     background-color:#ffffff;
-    background-image: url('./shapes-background-pattern.jpg');
+    background-image: url('./background.jpg');
     background-repeat: repeat-y;
     background-size: 80%;
     background-position: right;
@@ -167,7 +167,7 @@ p::selection {
     box-sizing: border-box;
     display: block;
     width: 100%;
-    background-image: url('./dark-chocolate-texture.jpg');
+    background-image: url('./background.jpg');
     padding: 16px;
     border: 8px solid black;
     border-bottom: 8px double black;
