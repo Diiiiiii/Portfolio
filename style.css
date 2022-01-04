@@ -9,9 +9,9 @@ body {
     line-height: 1.5;
     background-color:#ffffff;
     background-image: url('./background.jpg');
-    /* background-repeat: repeat-y;
-    background-size: 80%;
-    background-position: right; */
+    background-repeat: none;
+    background-size: 100%;
+    background-position: right; 
     /* background: 
         url('./shapes-background-pattern.jpg') right/80%  repeat-y,
          url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAAXNSR0IArs4c6QAAAD9JREFUKFONkNEKACAIA8///2jDwCinkG9uh04NLQesylVISOAbrObTJ9iuA44e4ARlzO1L6Oa4kPwX1DcME1n5/goIOM5KEQAAAABJRU5ErkJggg==) top left repeat, 
@@ -22,7 +22,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: hsl(0deg 50% 18%);
-/*    background-color:#fff; */
+    
     
 }
 .h6, h6 {
@@ -153,9 +153,9 @@ p::selection {
     border-top-right-radius: 40%; 
     border-top-left-radius: 50%; 
      /* border-radius: 100px;  */
-    border-width: 4px;
+   /*  border-width: 4px;
     border-style: solid;
-    border-color:#8bc34a; 
+    border-color:#8bc34a;  */
     /* transform: rotate(0.5turn); */
     transition: transform 1s ease;
 }
@@ -334,7 +334,8 @@ p::selection {
 }
 .header-description {
   flex-grow: 1;
-  margin-left: 32px;
+  margin-left: 180px;
+  padding-left:150px ;
 }
 
 .fancy-button {
@@ -351,22 +352,9 @@ p::selection {
 .fancy-button > span {
 
 }
-
-.wrapper {
-
-    background: url(./pngwing.com.png);
-    background-size: 100%;
-
-    
-    
-}
 .project-portfolio {
-    background: white;
+     background: white;
     border-radius: 50px 50px 30px 5px;
     padding: 20px;
-    border-left: 5px double red;
-   
-}
-div h6 {
-   
+    border-left: 5px double red;  
 }
