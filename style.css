@@ -58,7 +58,7 @@ body {
     letter-spacing: 0.1em;
 }
 .h1, h1 {
-    color: red;
+    color: whitesmoke;
     font-size: 3rem;
     font-weight: 700;
     line-height: 1.5;
@@ -144,8 +144,8 @@ p::selection {
 }
 .profile-image {
     display: block;
-    height:300px;
-    width: 300px;
+    height:200px;
+    width: 200px;
     object-fit: cover;
     object-position: -3px center;
     border-bottom-left-radius: 50%; 
@@ -153,9 +153,9 @@ p::selection {
     border-top-right-radius: 40%; 
     border-top-left-radius: 50%; 
      /* border-radius: 100px;  */
-    border-width: 8px;
-    border-style:solid;
-    border-color: red; 
+    border-width: 4px;
+    border-style: solid;
+    border-color:#8bc34a; 
     /* transform: rotate(0.5turn); */
     transition: transform 1s ease;
 }
@@ -354,7 +354,7 @@ p::selection {
 
 .wrapper {
 
-    background: url(./wallpaperflare-cropped.jpg);
+    background: url(./pngwing.com.png);
     background-size: 100%;
 
     
@@ -365,7 +365,8 @@ p::selection {
     border-radius: 50px 50px 30px 5px;
     padding: 20px;
     border-left: 5px double red;
+   
 }
 div h6 {
-    color: red;
+   
 }
