@@ -7,11 +7,11 @@ body {
     font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
-    background-color:#ffffff;
-    background-image: url('./background.jpg');
-    background-repeat: none;
+    background-color:#97bc25; ;
+    background-image: url('./background.png');
+   /*  background-repeat: none;
     background-size: 100%;
-    background-position: right; 
+    background-position: right;  */
     /* background: 
         url('./shapes-background-pattern.jpg') right/80%  repeat-y,
          url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAAXNSR0IArs4c6QAAAD9JREFUKFONkNEKACAIA8///2jDwCinkG9uh04NLQesylVISOAbrObTJ9iuA44e4ARlzO1L6Oa4kPwX1DcME1n5/goIOM5KEQAAAABJRU5ErkJggg==) top left repeat, 
@@ -56,13 +56,15 @@ body {
     font-size: 2.66rem;
     font-weight: 700;
     letter-spacing: 0.1em;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .h1, h1 {
-    color: whitesmoke;
+    color: rgb(245, 245, 245);
     font-size: 3rem;
     font-weight: 700;
     line-height: 1.5;
     letter-spacing: 0.1em;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .text-align-left { text-align: left; }
 .text-align-right { text-align: right; }
@@ -102,14 +104,15 @@ p::selection {
 
 .wrapper {
     max-width: 1024px;
-    width: 100%;
+    width: 55%;
     /* margin-left:auto ;
     margin-right: auto;
     margin: top right bottom left;
     margin: 0 auto 0 auto; */
     margin: 0 auto;
     padding: 0 16px;
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    
     
 }
 .cookie-consent {
@@ -334,8 +337,8 @@ p::selection {
 }
 .header-description {
   flex-grow: 1;
-  margin-left: 180px;
-  padding-left:150px ;
+  margin-left: 50px;
+  
 }
 
 .fancy-button {
@@ -354,7 +357,7 @@ p::selection {
 }
 .project-portfolio {
      background: white;
-    border-radius: 50px 50px 30px 5px;
+    border-radius: 50px 50px 30px 30px;
     padding: 20px;
     border-left: 5px double red;  
 }
