@@ -9,9 +9,9 @@ body {
     line-height: 1.5;
     background-color:#ffffff;
     background-image: url('./background.jpg');
-    background-repeat: repeat-y;
-    background-size: 80%;
-    background-position: right;
+    background-repeat: none;
+    background-size: 100%;
+    background-position: right; 
     /* background: 
         url('./shapes-background-pattern.jpg') right/80%  repeat-y,
          url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAAXNSR0IArs4c6QAAAD9JREFUKFONkNEKACAIA8///2jDwCinkG9uh04NLQesylVISOAbrObTJ9iuA44e4ARlzO1L6Oa4kPwX1DcME1n5/goIOM5KEQAAAABJRU5ErkJggg==) top left repeat, 
@@ -22,11 +22,11 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: hsl(0deg 50% 18%);
-/*    background-color:#fff; */
+    
     
 }
 .h6, h6 {
-    color: rgb(241 124 130);
+    color: red;
  /*   background-color:rgb(255, 255, 255); */
     font-size: 1.33rem;
     font-weight: 700;
@@ -52,13 +52,13 @@ body {
     letter-spacing: 0.1em;
 }
 .h2, h2 {
-    color: rgb(134 27 97);
+    color: red;
     font-size: 2.66rem;
     font-weight: 700;
     letter-spacing: 0.1em;
 }
 .h1, h1 {
-    color: rgb(32 111 56);
+    color: whitesmoke;
     font-size: 3rem;
     font-weight: 700;
     line-height: 1.5;
@@ -76,7 +76,7 @@ body {
     font-size: 3rem;
     letter-spacing: 1.0em;
     font-weight: 500;
-    background-color:#ffffff;
+   /* background-color:#ffffff; */
     text-shadow:
     0px 0px 0px rgb(221, 228, 208),
     3px 3px 0px #e1e42b,
@@ -144,8 +144,8 @@ p::selection {
 }
 .profile-image {
     display: block;
-    height:300px;
-    width: 300px;
+    height:200px;
+    width: 200px;
     object-fit: cover;
     object-position: -3px center;
     border-bottom-left-radius: 50%; 
@@ -153,9 +153,9 @@ p::selection {
     border-top-right-radius: 40%; 
     border-top-left-radius: 50%; 
      /* border-radius: 100px;  */
-    border-width: 10px;
-    border-style:solid;
-    border-color: rgb(249 179 32); 
+   /*  border-width: 4px;
+    border-style: solid;
+    border-color:#8bc34a;  */
     /* transform: rotate(0.5turn); */
     transition: transform 1s ease;
 }
@@ -164,27 +164,28 @@ p::selection {
     transition: transform 2s ease;
 }
 .project {
+    margin: 10px;
     box-sizing: border-box;
     display: block;
-    width: 100%;
-    background-image: url('./background.jpg');
+    /* width: 100%; */
+    /* background-image: url(); */
     padding: 16px;
-    border: 8px solid black;
-    border-bottom: 8px double black;
-    border-top: 8px double black;
-    border-color: rgb(249 179 32); 
+    border: 0px solid black;
+    border-bottom: 1px double black;
+    border-top: 0px double black;
+    border-color: red;
 }
 .project-title {
-    color:  gold; 
+    color: red; 
     font-size: 3rem;
     letter-spacing: .5em;
     font-weight: 500;
     /* background-color:#ffffff; */
-    text-shadow:
+ /*    text-shadow:
     0px 0px 0px rgb(221, 228, 208),
     3px 3px 0px #e1e42b,
     4px 5px 0px #ce41e1,
-    5px 6px 0px blueviolet;
+    5px 6px 0px blueviolet; */
     background-size: cover;
     margin-bottom: 8px;
 }
@@ -234,7 +235,7 @@ p::selection {
 
 .highlight-2 {
     color: hsl(0deg 20% 18%);
-    background: gold; 
+    background: whitesmoke; 
 }
 .tooltip {
     position: relative;
@@ -333,7 +334,8 @@ p::selection {
 }
 .header-description {
   flex-grow: 1;
-  margin-left: 32px;
+  margin-left: 180px;
+  padding-left:150px ;
 }
 
 .fancy-button {
@@ -349,4 +351,10 @@ p::selection {
 }
 .fancy-button > span {
 
+}
+.project-portfolio {
+     background: white;
+    border-radius: 50px 50px 30px 5px;
+    padding: 20px;
+    border-left: 5px double red;  
 }
