@@ -356,7 +356,7 @@ p::selection {
 
 }
 .project-portfolio {
-     background: white;
+    background: white;
     border-radius: 50px 50px 30px 30px;
     padding: 20px;
     border-left: 5px double red;  
