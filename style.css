@@ -336,28 +336,116 @@ p::selection {
   flex-shrink: 0;
 }
 .header-description {
-  flex-grow: 1;
-  margin-left: 50px;
+     flex-grow: 1;
+   margin-left: 0px;
+   
   
+}
+@media screen and (max-width: 760px) {
+ .profile-image {
+        width: 240px;
+        height: 240px;
+    }
+.header {
+    flex-direction: column;
+    align-items: center;
+}
+.header-description {
+    margin-left: 0;
+    text-align: center;
+}
 }
 
 .fancy-button {
-    display: inline-block;
-    border: none;
-    background: none;
-    padding:0 16px;
-    margin:0;
-    height: 40px;
+    box-sizing: border-box;
+  display: inline-block;
+  border: 4px solid black;
+  background: black;
+  padding: 0 16px;
+  margin: 0;
+  height: 40px;
+  color: #FDF7FA;
+  position: relative;
+  overflow: hidden;
 }
-.fancy-button::before{
-    
-}
-.fancy-button > span {
 
+.fancy-button > span {
+    position: relative;
+    transition: color 1s ease;
+  }
+
+.fancy-button::before {
+  content: '';
+  display: block;
+  position: absolute;
+  background: #FDF7FA;
+  top: 0;
+  left: auto;
+  right: -15%;
+  width: 0;
+  height: 100%;
+  transform: skewX(-15deg);
+  transition: width 0.5s ease;   
 }
+
+.fancy-button:hover::before {
+    right: auto;
+    left: -15%;
+    width: 120%;
+    transition: width 0.5s ease;
+  }
+  .fancy-button:hover {
+    color: black;
+  }
+
+/* Just mine new class */
 .project-portfolio {
     background: white;
     border-radius: 50px 50px 30px 30px;
     padding: 20px;
     border-left: 5px double red;  
 }
+
+@keyframes blink {
+ 0% {
+     opacity: 1;
+ }
+ 100% {
+     opacity: 0;
+ }
+}
+
+.blinking {
+ animation: blink 0.5s ease-in-out 0s infinite alternate forwards;
+ /* animation-fill-mode: forwards; */
+}
+
+@keyframes spin-left-right {
+    0% {
+        transform: rotate(0turn);
+    }
+    50% {
+        transform: rotate(1turn) ;
+    }
+    100% {
+        transform: rotate(0turn);
+    }
+}
+
+.spin-left-right {
+    animation: spin-left-right 2s ease 0s 1 forwards;
+}
+
+@keyframes ascend-in {
+    0% {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .ascend-in {
+    animation: ascend-in 2s ease 0s 1 forwards;
+  }
