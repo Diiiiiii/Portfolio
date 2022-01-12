@@ -1,0 +1,23 @@
+.project-technology-list {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .project-technology-list li {
+    display: inline-block;
+    background: #ddd9db;
+    background: #7d0505;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #7d0505), color-stop(53%, #fa0101));
+    background: linear-gradient(180deg, #7d0505 1%, #fa0101 53%);
+    padding: 4px 8px;
+    color: white;
+    margin-right: 8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 0.8rem;
+  }
+  
+  .project-technology-list li + li {
+    margin-left: 0px;
+  }
+  

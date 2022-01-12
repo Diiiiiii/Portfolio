@@ -1,0 +1,30 @@
+.cookie-consent {
+  /* position: fixed; */
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  color: black;
+  background-color: #f0f0f0;
+  padding: 16px;
+  /* width: auto; */
+  /* width: 320px; */
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* border: none; */
+  border-radius: 40px 10px;
+  display: inline-block;
+}
+
+.cookie-consent-text {
+  margin-right: 16px;
+}
+
+.cookie-consent-yes {
+  text-decoration: underline;
+  font-weight: bold;
+  margin-right: 16px;
+}
+
+.cookie-consent-no {
+  text-decoration: underline;
+}
