@@ -22,7 +22,7 @@ body {
          url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAAXNSR0IArs4c6QAAAD9JREFUKFONkNEKACAIA8///2jDwCinkG9uh04NLQesylVISOAbrObTJ9iuA44e4ARlzO1L6Oa4kPwX1DcME1n5/goIOM5KEQAAAABJRU5ErkJggg==) top left repeat, 
         linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(249,179,32,1) 100%); */
 } 
-p, .p {
+.p, p {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
