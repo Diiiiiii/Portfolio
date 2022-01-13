@@ -16,7 +16,7 @@
     transition: color 1s ease;
   }
 
-.fancy-button::before {
+&::before {
   content: '';
   display: block;
   position: absolute;
@@ -30,12 +30,12 @@
   transition: width 0.5s ease;   
 }
 
-.fancy-button:hover::before {
+& :hover::before {
     right: auto;
     left: -15%;
     width: 120%;
     transition: width 0.5s ease;
   }
-  .fancy-button:hover {
+  &:hover {
     color: black;
   }

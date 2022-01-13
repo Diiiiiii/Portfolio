@@ -1,17 +1,11 @@
-@import "./styles/variables";
-@import "./styles/animations";
-@import "./styles/fancy-button";
-@import "./styles/_navigation";
-@import "./styles/_palette";
-@import "./styles/_header";
-@import "./styles/_float";
-@import "./styles/_project-list";
-@import "./styles/_profile-image";
-@import "./styles/_cookie-consent";
-@import "./styles/_tooltip";
+@import "./styles/base/index";
+@import "./styles/unilities/index";
+@import "./styles/components/index";
+
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
-html {font-size: 15px} /* 1rem - root em - em */
+html {font-size: $size-rem;} /* 1rem - root em - em */
 
 body {
     color: #006;
@@ -120,9 +114,7 @@ p::selection {
     margin: 0 auto 0 auto; */
     margin: 0 auto;
     padding: 0 16px;
-    box-sizing: border-box;
-    
-    
+    box-sizing: border-box;   
 }
 
 .project {
