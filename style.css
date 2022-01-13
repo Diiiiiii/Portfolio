@@ -546,8 +546,10 @@ p::selection {
   line-height: 1;
   padding: 12px 16px;
   bottom: 0;
-  -webkit-transition: bottom 0.3s ease,  background-color 0.3s ease 0.3s;
-  transition: bottom 0.3s ease,  background-color 0.3s ease 0.3s;
+  -webkit-transition: bottom 0.3s ease, 
+ background-color 0.3s ease 0.3s;
+  transition: bottom 0.3s ease, 
+ background-color 0.3s ease 0.3s;
 }
 
 .project-link:hover {
